@@ -6,3 +6,4 @@ def get_products_query():
 def create_new_user(id):
 
     sql="INSERT INTO user (id) VALUES({id})"
+    return sql
